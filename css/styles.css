@@ -211,14 +211,13 @@ header .logo-part {
 
 .section-team {
   background-color: #f4f4fd;
-  /* padding: 120px 0; */
+  padding: 120px 0;
 }
 
 .team-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-photo {
@@ -229,6 +228,7 @@ header .logo-part {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -240,7 +240,6 @@ header .logo-part {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .team-photo-name {
@@ -268,6 +267,8 @@ header .logo-part {
   border-radius: 0px 0px 4px 4px;
 }
 
+/* ======== Portfolio =========== */
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -277,14 +278,10 @@ header .logo-part {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-  row-gap: 48px;
 }
 
 .portfolio-list {
@@ -320,10 +317,16 @@ header .logo-part {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
   padding-left: 16px;
-  margin-bottom: 120px;
 }
+
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*  =========== Fotter =========== */
+
 .section-footer {
   background-color: #2e2f42;
   padding: 100px 0;
