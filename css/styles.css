@@ -48,7 +48,7 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 15px auto;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -117,7 +117,6 @@ header .logo-part {
 
 .address-link {
   display: block;
-  padding: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -222,7 +221,6 @@ header .logo-part {
 }
 
 .team-photo {
-  margin-bottom: 32px;
   object-fit: cover;
 }
 
@@ -303,7 +301,7 @@ header .logo-part {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
+  /* padding-left: 16px; */
 }
 
 .div-portfolio {
